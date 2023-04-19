@@ -1,0 +1,19 @@
+<?php 
+
+ $name="MASUD ALAM";
+
+$name1="TOUFI TASNIM OISHEE";
+
+echo $name."<br>";
+
+echo $name1."<br>";
+
+echo $name[0]."<br>";
+
+echo strlen ($name1)."\n";
+
+echo strlen ($name1)."<br>";
+
+ var_dump($name);
+
+?>
