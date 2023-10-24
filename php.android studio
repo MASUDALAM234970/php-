@@ -1,1 +1,17 @@
 
+header('Content-Type: application/json; charset=utf-8');
+$data=array();
+
+$userInfo['name'] = "MOHHAMAD MASUD ALAM";
+$userInfo['mobile'] = "0017914064";
+$userInfo['Email'] = "mdmasudalam2349@gmail.com";
+array_push($data,$userInfo);
+
+
+$userInfo['name'] = "MOHHAMAD MASUD ALAM";
+$userInfo['mobile'] = "0017914064";
+$userInfo['Email'] = "mdmasudalam2349@gmail.com";
+array_push($data,$userInfo);
+
+
+echo json_encode($data);
